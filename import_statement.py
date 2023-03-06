@@ -5,3 +5,13 @@ for i in range(5):
 
 #imports for modules
 import random, sys, os, math
+
+#exit statement from sys
+import sys
+
+while True:
+    print('Type exit to exit.')
+    response = input()
+    if response == 'exit':
+        sys.exit()
+    print('You typed ' + response + '.')
